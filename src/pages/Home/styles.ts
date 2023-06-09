@@ -2,15 +2,17 @@ import styled from "styled-components";
 
 export const HomeContainer = styled.div`
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+`
+export const SectionContainer = styled.main`
+  display: flex;
   align-items: center;
+  justify-content: center;
   gap: 3.5rem;
-
 `
 export const HomeContent = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 36.75rem;
 
   h1 {
@@ -18,7 +20,6 @@ export const HomeContent = styled.div`
   font-size: 3rem;
   font-family: 'Baloo 2', sans-serif;
   font-weight: 900;
-  
  }
 
   p {
@@ -26,20 +27,16 @@ export const HomeContent = styled.div`
    font-size: 1.25rem;
    font-weight: 400;
    margin-top: 1rem;
-
  }
 
 `
-
 export const HomeSection = styled.div`
   display: flex; 
-  margin-top: 4.1rem;
   gap: 2.5rem;
   width: 35.43rem;
-  
 `
 
-const CoffeDetails = styled.span`
+const CoffeeDetails = styled.span`
  display: flex;
  align-items: center;
  margin: 1.25rem 0;
@@ -58,40 +55,40 @@ const CoffeDetails = styled.span`
 
 `
 
-export const FastAndSecure = styled(CoffeDetails)`
+export const FastAndSecure = styled(CoffeeDetails)`
 
  i {
   background: ${(props) => props.theme["yellow-700"]};
  }
 
 `
-export const FastAndTracked = styled(CoffeDetails)`
+export const FastAndTracked = styled(CoffeeDetails)`
   i {
     background: ${(props) => props.theme["yellow-500"]}
   }
 `
 
-export const PackagingKeeps = styled(CoffeDetails)`
+export const PackagingKeeps = styled(CoffeeDetails)`
   i{
     background: ${(props) => props.theme["gray-400"]}
   }
 `
-export const CoffeArrives = styled(CoffeDetails)`
+export const CoffeeArrives = styled(CoffeeDetails)`
    margin-right: .75rem;
   i {
     background-color: ${(props) => props.theme["blue-300"]};
-   
+
   }
 `
 
-export const DatailsStart = styled.div`
+export const DatalistStart = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 `
 
-export const DatailsEnd = styled.div`
+export const DatalistEnd = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -99,7 +96,7 @@ export const DatailsEnd = styled.div`
 `
 
 export const HomeImage = styled.div`
-  width: 476px;
+  width: 29.75rem;
   margin-top: 2rem;
   box-sizing: border-box;
 `
