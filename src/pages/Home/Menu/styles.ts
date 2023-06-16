@@ -53,12 +53,13 @@ export const MenuInfo = styled.div`
   }
 
   p {
-    color: ${(props) => props.theme['gray-300']};
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.875rem;
-    margin-top: .5rem;
-    font-weight: 400;
+   color: ${(props) => props.theme['gray-300']};
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   font-size: 0.875rem;
+   margin-top: .5rem;
+   font-weight: 400;
+   width: 13.5rem;
   }
 
   
@@ -66,6 +67,7 @@ export const MenuInfo = styled.div`
 
 export const CoffeeType = styled.span`
   display: flex;
+  align-items: center;
   gap: 0.25rem;
 
   span {
@@ -77,12 +79,8 @@ export const CoffeeType = styled.span`
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
   padding: 0.25rem .5rem;
-  width: 5.06rem;
   border-radius: 100px; 
-
-  &:nth-child(2) {
-    width: 3.43rem;
-  }
+  text-align: center;
 }
   
 `

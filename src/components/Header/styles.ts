@@ -5,8 +5,8 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: space-around;
   padding: 2rem 1.6rem;
-  /* gap: 7rem; */
-  gap: 40.25rem;
+  gap: 7rem;
+  /* gap: 40.25rem; */
   
 `
 
