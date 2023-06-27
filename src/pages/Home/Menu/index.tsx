@@ -1,4 +1,5 @@
 import { ShoppingCartSimple } from 'phosphor-react'
+
 import ExpressoTradicional from '../../../assets/ExpressoTradicional.svg'
 import ExpressoAmericano from '../../../assets/ExpressoAmericano.svg'
 import ExpressoCremoso from '../../../assets/ExpressoCremoso.svg'
@@ -13,6 +14,7 @@ import Cubano from '../../../assets/Cubano.svg'
 import Havaiano from '../../../assets/Havaiano.svg'
 import Árabe from '../../../assets/Árabe.svg'
 import Irlandês from '../../../assets/Irlandês.svg'
+
 import {
   MenuCoffee,
   MenuItem,
@@ -21,7 +23,8 @@ import {
   CoffeeType,
   CoffeeCard,
   Test,
-  Button
+  Button,
+  Card
 } from './styles'
 
 export const Menu = () => {
@@ -50,9 +53,11 @@ export const Menu = () => {
                   <span>0</span>
                   <button>-</button>
                 </Test>
-                <i>
-                  <ShoppingCartSimple size={22} weight="fill" />
-                </i>
+                <Card>
+                  <button>
+                    <ShoppingCartSimple size={22} weight="fill" />
+                  </button>
+                </Card>
               </Button>
             </CoffeeCard>
           </MenuItem>
@@ -76,9 +81,11 @@ export const Menu = () => {
                   <span>0</span>
                   <button>-</button>
                 </Test>
-                <i>
-                  <ShoppingCartSimple size={22} weight="fill" />
-                </i>
+                <Card>
+                  <button>
+                    <ShoppingCartSimple size={22} weight="fill" />
+                  </button>
+                </Card>
               </Button>
             </CoffeeCard>
           </MenuItem>
@@ -102,9 +109,11 @@ export const Menu = () => {
                   <span>0</span>
                   <button>-</button>
                 </Test>
-                <i>
-                  <ShoppingCartSimple size={22} weight="fill" />
-                </i>
+                <Card>
+                  <button>
+                    <ShoppingCartSimple size={22} weight="fill" />
+                  </button>
+                </Card>
               </Button>
             </CoffeeCard>
           </MenuItem>
@@ -129,9 +138,11 @@ export const Menu = () => {
                   <span>0</span>
                   <button>-</button>
                 </Test>
-                <i>
-                  <ShoppingCartSimple size={22} weight="fill" />
-                </i>
+                <Card>
+                  <button>
+                    <ShoppingCartSimple size={22} weight="fill" />
+                  </button>
+                </Card>
               </Button>
             </CoffeeCard>
           </MenuItem>
@@ -156,9 +167,11 @@ export const Menu = () => {
                   <span>0</span>
                   <button>-</button>
                 </Test>
-                <i>
-                  <ShoppingCartSimple size={22} weight="fill" />
-                </i>
+                <Card>
+                  <button>
+                    <ShoppingCartSimple size={22} weight="fill" />
+                  </button>
+                </Card>
               </Button>
             </CoffeeCard>
           </MenuItem>
@@ -183,9 +196,11 @@ export const Menu = () => {
                   <span>0</span>
                   <button>-</button>
                 </Test>
-                <i>
-                  <ShoppingCartSimple size={22} weight="fill" />
-                </i>
+                <Card>
+                  <button>
+                    <ShoppingCartSimple size={22} weight="fill" />
+                  </button>
+                </Card>
               </Button>
             </CoffeeCard>
           </MenuItem>
@@ -210,9 +225,11 @@ export const Menu = () => {
                   <span>0</span>
                   <button>-</button>
                 </Test>
-                <i>
-                  <ShoppingCartSimple size={22} weight="fill" />
-                </i>
+                <Card>
+                  <button>
+                    <ShoppingCartSimple size={22} weight="fill" />
+                  </button>
+                </Card>
               </Button>
             </CoffeeCard>
           </MenuItem>
@@ -237,9 +254,11 @@ export const Menu = () => {
                   <span>0</span>
                   <button>-</button>
                 </Test>
-                <i>
-                  <ShoppingCartSimple size={22} weight="fill" />
-                </i>
+                <Card>
+                  <button>
+                    <ShoppingCartSimple size={22} weight="fill" />
+                  </button>
+                </Card>
               </Button>
             </CoffeeCard>
           </MenuItem>
@@ -264,9 +283,11 @@ export const Menu = () => {
                   <span>0</span>
                   <button>-</button>
                 </Test>
-                <i>
-                  <ShoppingCartSimple size={22} weight="fill" />
-                </i>
+                <Card>
+                  <button>
+                    <ShoppingCartSimple size={22} weight="fill" />
+                  </button>
+                </Card>
               </Button>
             </CoffeeCard>
           </MenuItem>
@@ -291,9 +312,11 @@ export const Menu = () => {
                   <span>0</span>
                   <button>-</button>
                 </Test>
-                <i>
-                  <ShoppingCartSimple size={22} weight="fill" />
-                </i>
+                <Card>
+                  <button>
+                    <ShoppingCartSimple size={22} weight="fill" />
+                  </button>
+                </Card>
               </Button>
             </CoffeeCard>
           </MenuItem>
@@ -319,9 +342,11 @@ export const Menu = () => {
                   <span>0</span>
                   <button>-</button>
                 </Test>
-                <i>
-                  <ShoppingCartSimple size={22} weight="fill" />
-                </i>
+                <Card>
+                  <button>
+                    <ShoppingCartSimple size={22} weight="fill" />
+                  </button>
+                </Card>
               </Button>
             </CoffeeCard>
           </MenuItem>
@@ -345,9 +370,11 @@ export const Menu = () => {
                   <span>0</span>
                   <button>-</button>
                 </Test>
-                <i>
-                  <ShoppingCartSimple size={22} weight="fill" />
-                </i>
+                <Card>
+                  <button>
+                    <ShoppingCartSimple size={22} weight="fill" />
+                  </button>
+                </Card>
               </Button>
             </CoffeeCard>
           </MenuItem>
@@ -371,9 +398,11 @@ export const Menu = () => {
                   <span>0</span>
                   <button>-</button>
                 </Test>
-                <i>
-                  <ShoppingCartSimple size={22} weight="fill" />
-                </i>
+                <Card>
+                  <button>
+                    <ShoppingCartSimple size={22} weight="fill" />
+                  </button>
+                </Card>
               </Button>
             </CoffeeCard>
           </MenuItem>
@@ -398,9 +427,11 @@ export const Menu = () => {
                   <span>0</span>
                   <button>-</button>
                 </Test>
-                <i>
-                  <ShoppingCartSimple size={22} weight="fill" />
-                </i>
+                <Card>
+                  <button>
+                    <ShoppingCartSimple size={22} weight="fill" />
+                  </button>
+                </Card>
               </Button>
             </CoffeeCard>
           </MenuItem>

@@ -85,6 +85,22 @@ export const CoffeeType = styled.span`
   
 `
 
+export const Card = styled.div`
+ button {
+    background: ${(props) => props.theme['blue-500']};
+    color: ${(props) => props.theme.white};
+    padding: .3rem;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    cursor: pointer;
+  }
+   button:hover {
+    background-color: ${(props) => props.theme['blue-300']};
+  }
+`
+
 
 export const CoffeeCard = styled.div`
 
@@ -107,16 +123,6 @@ export const CoffeeCard = styled.div`
     font-weight: 800;
     font-family: 'Baloo 2', sans-serif;
     font-size: 1.5rem;
-  }
-
-  i {
-    background: ${(props) => props.theme['blue-500']};
-    color: ${(props) => props.theme.white};
-    padding: .3rem;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    padding: .5rem
   }
 
 `
