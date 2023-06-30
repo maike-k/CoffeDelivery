@@ -1,13 +1,13 @@
 import { MapPinLine, CurrencyDollar, CreditCard, Bank, Money, Trash } from 'phosphor-react'
-import { CheckoutAddress, CheckoutContainer, CheckoutData, CheckoutForm, CheckoutOne, CheckoutThree, CheckoutTwo } from './styles'
+import { CheckoutAddress, CheckoutContainer, CheckoutData, CheckoutForm, CheckoutOne, CheckoutPayment, CheckoutPaymentInfo, CheckoutThree, CheckoutTwo, PaymentCash } from './styles'
 export const Checkout = () => {
 
   return (
     <CheckoutContainer>
-      <div>
+      <main>
         <h2>Complete o seu pedido</h2>
-        <CheckoutForm>
-          <form>
+        <form>
+          <CheckoutForm>
             <CheckoutAddress>
               <i><MapPinLine size={22} /></i>
               <div>
@@ -32,30 +32,32 @@ export const Checkout = () => {
                 <input type="text" placeholder='uf' />
               </CheckoutThree>
             </CheckoutData>
-            <div>
-              <h3>
-                <CurrencyDollar />
-                pagamento
-              </h3>
-              <span>O pagamento é feito na entrega. Escolha a forma que deseja pagar</span>
-            </div>
-            <div>
+          </CheckoutForm>
+          <CheckoutPayment>
+            <CheckoutPaymentInfo>
+              <i><CurrencyDollar size={22} /></i>
+              <div>
+                <strong>Pagamento</strong>
+                <span>O pagamento é feito na entrega. Escolha a forma que deseja pagar</span>
+              </div>
+            </CheckoutPaymentInfo>
+            <PaymentCash>
               <button>
-                <CreditCard />
+                <i> <CreditCard size={12} /></i>
                 cartão de crédito
               </button>
               <button>
-                <Bank />
+                <i><Bank size={12} /></i>
                 cartão de débito
               </button>
               <button>
-                <Money />
+                <i> <Money size={12} /></i>
                 dinheiro
               </button>
-            </div>
-          </form>
-        </CheckoutForm>
-      </div>
+            </PaymentCash>
+          </CheckoutPayment>
+        </form>
+      </main>
       <div>
         <h2>Cafés selecionados</h2>
         <div>
