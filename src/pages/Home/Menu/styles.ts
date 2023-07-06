@@ -95,10 +95,13 @@ export const Card = styled.div`
     align-items: center;
     padding: .5rem;
     cursor: pointer;
+
+    &:hover {
+      background-color: ${(props) => props.theme['blue-300']};
+    }
   }
-   button:hover {
-    background-color: ${(props) => props.theme['blue-300']};
-  }
+
+   
 `
 
 
@@ -131,6 +134,7 @@ export const Button = styled.div`
   display: flex;
   align-items: center;
   gap: .5rem;
+
 `
 
 export const Test = styled.div`
@@ -147,8 +151,12 @@ export const Test = styled.div`
   button {
     background: transparent;
     font-size: .875rem;
-    color: ${(props) => props.theme['blue-300']};
+    color: ${(props) => props.theme['blue-500']};
     cursor: pointer ;
+
+    &:hover {
+      color: ${(props) => props.theme['blue-300']};
+    }
   }
 
   span {

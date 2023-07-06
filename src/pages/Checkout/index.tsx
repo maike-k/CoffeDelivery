@@ -1,5 +1,32 @@
-import { MapPinLine, CurrencyDollar, CreditCard, Bank, Money, Trash } from 'phosphor-react'
-import { CheckoutAddress, CheckoutContainer, CheckoutData, CheckoutForm, CheckoutOne, CheckoutPayment, CheckoutPaymentInfo, CheckoutThree, CheckoutTwo, PaymentCash } from './styles'
+import {
+  MapPinLine,
+  CurrencyDollar,
+  CreditCard,
+  Bank,
+  Money,
+  Trash
+} from 'phosphor-react'
+
+import {
+  CheckoutAddress,
+  CheckoutButton,
+  CheckoutContainer,
+  CheckoutData,
+  CheckoutForm,
+  CheckoutInfo,
+  CheckoutItemsSelect,
+  CheckoutOne,
+  CheckoutPayment,
+  CheckoutPaymentInfo,
+  CheckoutSelect,
+  CheckoutThree,
+  CheckoutTwo,
+  PaymentCash
+} from './styles'
+
+import Latte from '../../assets/Latte.svg'
+import ExpressoTradicional from '../../assets/ExpressoTradicional.svg'
+
 export const Checkout = () => {
 
   return (
@@ -58,41 +85,65 @@ export const Checkout = () => {
           </CheckoutPayment>
         </form>
       </main>
-      <div>
+      <section>
         <h2>Cafés selecionados</h2>
-        <div>
-          <div>
-            <img src="" alt="" />
+        <CheckoutSelect>
+          <CheckoutItemsSelect>
+            <img src={ExpressoTradicional} />
             <div>
-              <span>Expresso Tradicional</span>
-              <div>
-                <button>-</button>
-                <span>1</span>
-                <button>+</button>
-                <button>
-                  <Trash />
-                  Remover
-                </button>
-              </div>
+              <CheckoutInfo>
+                <span>Expresso Tradicional</span>
+                <strong> R$ 9.90</strong>
+              </CheckoutInfo>
+              <CheckoutButton>
+                <div>
+                  <button>-</button>
+                  <span>1</span>
+                  <button>+</button>
+                </div>
+                <div>
+                  <i>
+                    <Trash />
+                  </i>
+                  <button>
+                    Remover
+                  </button>
+                </div>
+              </CheckoutButton>
             </div>
-          </div>
-          <div>
-            <img src="" alt="" />
+          </CheckoutItemsSelect>
+          <CheckoutItemsSelect>
+            <img src={Latte} />
             <div>
-              <span>Latte</span>
-              <div>
-                <button>-</button>
-                <span>1</span>
-                <button>+</button>
-                <button>
-                  <Trash />
-                  Remover
-                </button>
-              </div>
+              <CheckoutInfo>
+                <span>Expresso Tradicional</span>
+                <strong> R$ 9.90</strong>
+              </CheckoutInfo>
+              <CheckoutButton>
+                <div>
+                  <button>-</button>
+                  <span>1</span>
+                  <button>+</button>
+                </div>
+                <div>
+                  <i>
+                    <Trash />
+                  </i>
+                  <button>
+                    Remover
+                  </button>
+                </div>
+              </CheckoutButton>
             </div>
-          </div>
-        </div>
-      </div>
+          </CheckoutItemsSelect>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </CheckoutSelect>
+
+      </section>
     </CheckoutContainer>
   )
 }

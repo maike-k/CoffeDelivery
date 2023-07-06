@@ -1,3 +1,4 @@
+import { Button } from './../Home/Menu/styles';
 import styled from 'styled-components'
 
 export const CheckoutContainer = styled.div`
@@ -294,6 +295,7 @@ export const PaymentCash = styled.div`
 
   i {
   color: ${(props) => props.theme['blue-300']};
+  border-top: 4px solid transparent;
  }
 
   button {
@@ -311,6 +313,7 @@ export const PaymentCash = styled.div`
   line-height: 1.6;
   background: ${(props) => props.theme['light-400']};
   transition: .2s all;
+  
 
   &:hover {
     background: ${(props) => props.theme['light-500']}
@@ -318,8 +321,125 @@ export const PaymentCash = styled.div`
 
   }
 
-
   button:last-child {
     flex: 1;
   }
 `
+
+export const CheckoutSelect = styled.div`
+  padding: 2.5rem;
+  width: 28rem;
+  /* height: 31.125rem; */
+  display: flex;
+  align-items: center;
+  
+  flex-direction: column;
+  background: ${(props) => props.theme['light-200']} ;
+  gap: 1.5rem;
+
+  border-top-left-radius: 6px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 40px;
+`
+
+export const CheckoutItemsSelect = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  border-bottom: 1px solid ${(props) => props.theme['light-400']};
+  padding-bottom: 1.5rem ;
+
+
+
+  img {
+      width: 64px;
+  }
+  
+`
+
+export const CheckoutInfo = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  width: 18.75rem;
+
+  span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: ${(props) => props.theme['gray-500']};
+  }
+
+
+  strong {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: ${(props) => props.theme['gray-400']};
+  }
+`
+
+
+export const CheckoutButton = styled.div`
+  
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+
+  div:first-child {
+    border-radius: 6px;
+    width: 4.5rem;
+    height: 2rem;
+    background: ${(props) => props.theme['light-400']};
+    padding:  .5rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+
+    span {
+      color: ${(props) => props.theme['gray-600']};
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+
+    button {
+      background: transparent;
+      color: ${(props) => props.theme['blue-300']};
+      margin: 0 0.25rem;
+      font-size: .875rem;
+      cursor: pointer;
+    }
+    
+  }
+
+  div:last-child {
+    border-radius: 6px;
+    background: ${(props) => props.theme['light-400']};
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    width: 5.68rem;
+    height: 2rem;
+    padding: 0 3.5rem;
+
+    button {
+      background: transparent;
+      font-size: .875rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: ${(props) => props.theme['gray-400']};
+    }
+
+    i {
+      color: ${(props) => props.theme['blue-300']};
+    }
+
+  }
+      `

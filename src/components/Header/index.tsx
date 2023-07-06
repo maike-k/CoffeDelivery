@@ -14,7 +14,7 @@ export const Header = () => {
           </i>
           Fortaleza, CE
         </span>
-        <NavLink to={'/history'}>
+        <NavLink to={'/checkout'}>
           <ShoppingCart size={22} weight="fill" />
         </NavLink>
       </NavContent>

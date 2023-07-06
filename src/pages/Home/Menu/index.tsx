@@ -49,9 +49,9 @@ export const Menu = () => {
               </div>
               <Button>
                 <Test>
-                  <button>+</button>
-                  <span>0</span>
                   <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
                 </Test>
                 <Card>
                   <button>
@@ -77,9 +77,9 @@ export const Menu = () => {
               </div>
               <Button>
                 <Test>
-                  <button>+</button>
-                  <span>0</span>
                   <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
                 </Test>
                 <Card>
                   <button>
@@ -105,9 +105,9 @@ export const Menu = () => {
               </div>
               <Button>
                 <Test>
-                  <button>+</button>
-                  <span>0</span>
                   <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
                 </Test>
                 <Card>
                   <button>
@@ -134,9 +134,9 @@ export const Menu = () => {
               </div>
               <Button>
                 <Test>
-                  <button>+</button>
-                  <span>0</span>
                   <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
                 </Test>
                 <Card>
                   <button>
@@ -163,9 +163,9 @@ export const Menu = () => {
               </div>
               <Button>
                 <Test>
-                  <button>+</button>
-                  <span>0</span>
                   <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
                 </Test>
                 <Card>
                   <button>
@@ -192,9 +192,9 @@ export const Menu = () => {
               </div>
               <Button>
                 <Test>
-                  <button>+</button>
-                  <span>0</span>
                   <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
                 </Test>
                 <Card>
                   <button>
@@ -221,9 +221,9 @@ export const Menu = () => {
               </div>
               <Button>
                 <Test>
-                  <button>+</button>
-                  <span>0</span>
                   <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
                 </Test>
                 <Card>
                   <button>
@@ -250,9 +250,9 @@ export const Menu = () => {
               </div>
               <Button>
                 <Test>
-                  <button>+</button>
-                  <span>0</span>
                   <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
                 </Test>
                 <Card>
                   <button>
@@ -279,9 +279,9 @@ export const Menu = () => {
               </div>
               <Button>
                 <Test>
-                  <button>+</button>
-                  <span>0</span>
                   <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
                 </Test>
                 <Card>
                   <button>
@@ -308,9 +308,9 @@ export const Menu = () => {
               </div>
               <Button>
                 <Test>
-                  <button>+</button>
-                  <span>0</span>
                   <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
                 </Test>
                 <Card>
                   <button>
@@ -338,9 +338,9 @@ export const Menu = () => {
               </div>
               <Button>
                 <Test>
-                  <button>+</button>
-                  <span>0</span>
                   <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
                 </Test>
                 <Card>
                   <button>
@@ -366,9 +366,9 @@ export const Menu = () => {
               </div>
               <Button>
                 <Test>
-                  <button>+</button>
-                  <span>0</span>
                   <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
                 </Test>
                 <Card>
                   <button>
@@ -394,9 +394,9 @@ export const Menu = () => {
               </div>
               <Button>
                 <Test>
-                  <button>+</button>
-                  <span>0</span>
                   <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
                 </Test>
                 <Card>
                   <button>
@@ -423,9 +423,9 @@ export const Menu = () => {
               </div>
               <Button>
                 <Test>
-                  <button>+</button>
-                  <span>0</span>
                   <button>-</button>
+                  <span>0</span>
+                  <button>+</button>
                 </Test>
                 <Card>
                   <button>
