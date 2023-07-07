@@ -8,6 +8,7 @@ import {
 } from 'phosphor-react'
 
 import {
+  Button,
   CheckoutAddress,
   CheckoutButton,
   CheckoutContainer,
@@ -18,10 +19,13 @@ import {
   CheckoutOne,
   CheckoutPayment,
   CheckoutPaymentInfo,
+  CheckoutPrice,
   CheckoutSelect,
   CheckoutThree,
   CheckoutTwo,
-  PaymentCash
+  ItemsSelect,
+  ItemsSelectTotal,
+  PaymentCash,
 } from './styles'
 
 import Latte from '../../assets/Latte.svg'
@@ -103,7 +107,7 @@ export const Checkout = () => {
                 </div>
                 <div>
                   <i>
-                    <Trash />
+                    <Trash size={16} />
                   </i>
                   <button>
                     Remover
@@ -116,7 +120,7 @@ export const Checkout = () => {
             <img src={Latte} />
             <div>
               <CheckoutInfo>
-                <span>Expresso Tradicional</span>
+                <span>Late</span>
                 <strong> R$ 9.90</strong>
               </CheckoutInfo>
               <CheckoutButton>
@@ -127,7 +131,7 @@ export const Checkout = () => {
                 </div>
                 <div>
                   <i>
-                    <Trash />
+                    <Trash size={16} />
                   </i>
                   <button>
                     Remover
@@ -136,13 +140,22 @@ export const Checkout = () => {
               </CheckoutButton>
             </div>
           </CheckoutItemsSelect>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <CheckoutPrice>
+            <ItemsSelect>
+              <span>Total de Itens</span>
+              <strong>R$ 29.70</strong>
+            </ItemsSelect>
+            <ItemsSelect>
+              <span>Entrega</span>
+              <strong>R$ 3.50</strong>
+            </ItemsSelect>
+            <ItemsSelectTotal>
+              <span>Total</span>
+              <strong>R$ 33.20</strong>
+            </ItemsSelectTotal>
+            <Button>Confirmar Pedido</Button>
+          </CheckoutPrice>
         </CheckoutSelect>
-
       </section>
     </CheckoutContainer>
   )

@@ -1,4 +1,3 @@
-import { Button } from './../Home/Menu/styles';
 import styled from 'styled-components'
 
 export const CheckoutContainer = styled.div`
@@ -328,11 +327,9 @@ export const PaymentCash = styled.div`
 
 export const CheckoutSelect = styled.div`
   padding: 2.5rem;
-  width: 28rem;
+  /* width: 28rem; */
   /* height: 31.125rem; */
   display: flex;
-  align-items: center;
-  
   flex-direction: column;
   background: ${(props) => props.theme['light-200']} ;
   gap: 1.5rem;
@@ -341,7 +338,11 @@ export const CheckoutSelect = styled.div`
   border-top-right-radius: 40px;
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 40px;
+
+
 `
+
+
 
 export const CheckoutItemsSelect = styled.div`
   display: flex;
@@ -350,11 +351,11 @@ export const CheckoutItemsSelect = styled.div`
   border-bottom: 1px solid ${(props) => props.theme['light-400']};
   padding-bottom: 1.5rem ;
 
-
-
   img {
       width: 64px;
   }
+
+ 
   
 `
 
@@ -384,7 +385,6 @@ export const CheckoutInfo = styled.div`
 export const CheckoutButton = styled.div`
   
   display: flex;
-  align-items: center;
   gap: 0.5rem;
 
 
@@ -392,11 +392,12 @@ export const CheckoutButton = styled.div`
     border-radius: 6px;
     width: 4.5rem;
     height: 2rem;
+    padding: 0.5rem;
+
     background: ${(props) => props.theme['light-400']};
-    padding:  .5rem;
     display: flex;
     justify-content: center;
-    gap: 0.25rem;
+    gap: .5rem;
 
     span {
       color: ${(props) => props.theme['gray-600']};
@@ -408,7 +409,6 @@ export const CheckoutButton = styled.div`
     button {
       background: transparent;
       color: ${(props) => props.theme['blue-300']};
-      margin: 0 0.25rem;
       font-size: .875rem;
       cursor: pointer;
     }
@@ -418,18 +418,17 @@ export const CheckoutButton = styled.div`
   div:last-child {
     border-radius: 6px;
     background: ${(props) => props.theme['light-400']};
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.25rem;
     width: 5.68rem;
     height: 2rem;
-    padding: 0 3.5rem;
+    padding: 0 0.5rem;
 
     button {
       background: transparent;
-      font-size: .875rem;
+      font-size: 0.75rem;
       cursor: pointer;
       text-transform: uppercase;
       font-family: 'Roboto', sans-serif;
@@ -439,7 +438,59 @@ export const CheckoutButton = styled.div`
 
     i {
       color: ${(props) => props.theme['blue-300']};
+      height: 1rem;
     }
 
   }
-      `
+`
+
+export const CheckoutPrice = styled.div`
+  display: flex;
+  flex-direction: column;
+ 
+`
+export const ItemsSelect = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-top:  0.75rem;
+
+  span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    color: ${(props) => props.theme['gray-400']};
+    font-weight: 400;    
+  }
+
+  strong {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+ 
+`
+
+export const ItemsSelectTotal = styled.div`
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  margin-top:  0.75rem;
+  color: ${(props) => props.theme['gray-500']};
+  font-weight: 700;
+`
+
+export const Button = styled.button`
+  text-transform: uppercase;
+  margin-top: 1.5rem ;
+  border-radius: 6px;
+  padding: 0.75rem 0.5rem;
+  color: ${(props) => props.theme['white']};
+  background: ${(props) => props.theme['yellow-500']};
+  cursor: pointer;
+  transition: 0.5s all;
+
+  &:hover {
+    background: ${(props) => props.theme['yellow-700']};
+  }
+` 
