@@ -439,7 +439,7 @@ export const CheckoutButton = styled.div`
     i {
       color: ${(props) => props.theme['blue-300']};
       height: 1rem;
-    }
+    } 
 
   }
 `
